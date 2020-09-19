@@ -14,7 +14,8 @@ public class Apple : MonoBehaviour
             ApplePicker apScript = Camera.main.GetComponent<ApplePicker>
             (); // 1
                 // Call the public AppleDestroyed() method of apScript
-            apScript.AppleDestroyed(); // 2
+            apScript.AppleDestroyed(); // 2
+
         }
     }
 }

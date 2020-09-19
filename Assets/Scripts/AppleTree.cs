@@ -38,7 +38,8 @@ public class AppleTree : MonoBehaviour
         Vector3 pos = transform.position;
         pos.x += speed * Time.deltaTime;
         transform.position = pos;
-
+        //  transform.position = new Vector3(transform.pos.x+(speed*Time.deltaTime),transfrom.position.y);
+        
         // Changing Direction
         if (pos.x < -leftAndRightEdge)
         {
